@@ -41,6 +41,13 @@ for (one, another) in w.iter().zip(&[2.0, 2.0, 5.0]) {
 }
 ```
 
+## Requirements
+You need a working fortran compiler:
+
+```sh
+sudo pacman -S gcc-fortran # Arch
+```
+
 ## Contribution
 
 Your contribution is highly appreciated. Do not hesitate to open an issue or a
